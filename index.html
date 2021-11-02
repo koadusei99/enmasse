@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>EnMasse</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="top">
+                <div class="brand">En Masse </div>
+                <button class="navtoggle" id="toggle" type="button"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6" fill="none" width="50" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg></button>
+            </div>
+            <div id="navitems">
+                <ul class="navlinks">
+                    <li class="navitem"><a href="#aboutus">Home</a></li>
+                    <li class="navitem"><a href="#offer">Category</a></li>
+                    <li class="navitem"><a href="#offer">FAQ</a></li>
+                    <li class="navitem"><a href="#offer">Become an Agent</a></li>
+
+                </ul>
+                <div class="nav-btns">
+                    <button class="btn sin">Sign In</button>
+                    <button class="btn sup btn-orange">Sign Up</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- <div class="overlay">
+            <div class="sidebar">
+                <div class="filters">
+                    <div class="prods">
+                        <p><span>10</span> Products</p>
+                    </div>
+                    <div class="sort">
+                        <p>Sort</p>
+                        <div>
+                            <p>Relevance</p>
+                            <img src="./assets/caret.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="categories">
+                        <p class="hd">categories</p>
+                        <div class="catgs">
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Vehicles</p>
+                            </div>
+
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Property</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Mobile Phones & Tablets</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Electronics</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Furniture & Appliances</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Health & Beauty</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Fashion</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Sports, Arts & Outdoors</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Seeking Work - CVs</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Services</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Babies & Kids</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Animals & Pets</p>
+                            </div>
+                            <div class="catg">
+                                <input type="checkbox" name="" id="">
+                                <p>Agriculture & Food</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <section class="hero">
+            <div class="inner">
+                <h1>Your Bulk Product Orders at ease</h1>
+                <div class="hero-content">
+                    <div class="txt">
+                        <h2>Are you in need of items to buy</h2>
+                        <p>Publish requests for free</p>
+                        <button class="btn btn-orange">Make Request</button>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/happy.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="commerce">
+            <div class="inner container">
+                <div class="search-area">
+                    <div class="search">
+                        <p class="intro">Explore our wide range of product requests by publishers</p>
+                        <div class="form"><input type="text" placeholder="Search"><button class="btn btn-orange"><img
+                                    src="./assets/searchicon.svg" alt=""></button></div>
+                    </div>
+                    <button id="open"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" width="50"
+                            viewBox="0 0 24 24" stroke="#ffa010">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                        </svg></button>
+                </div>
+                <div class="commerce-content">
+
+                    <div class="filters" id="filters">
+                        <div class="ctrl">
+                            <button id="close"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.4478 19.5522C0.580337 19.6858 0.738022 19.7919 0.911757 19.8643C1.08549 19.9367 1.27184 19.9739 1.46005 19.9739C1.64826 19.9739 1.83461 19.9367 2.00834 19.8643C2.18208 19.7919 2.33976 19.6858 2.4723 19.5522L10 12.0245L17.5562 19.5807C17.8247 19.8492 18.1888 20 18.5685 20C18.9481 20 19.3122 19.8492 19.5807 19.5807C19.8492 19.3122 20 18.9481 20 18.5685C20 18.1888 19.8492 17.8247 19.5807 17.5562L12.0245 10L19.5807 2.44378C19.8492 2.17532 20 1.8112 20 1.43153C20 1.05187 19.8492 0.687752 19.5807 0.419288C19.3122 0.150823 18.9481 0 18.5685 0C18.1888 0 17.8247 0.150823 17.5562 0.419288L10 7.9755L2.44378 0.4478C2.17532 0.179335 1.8112 0.0285147 1.43153 0.0285147C1.05187 0.0285147 0.687752 0.179335 0.419288 0.4478C0.150823 0.716264 0 1.08038 0 1.46005C0 1.83972 0.150823 2.20383 0.419288 2.4723L7.9755 10L0.4478 17.5562C0.186573 17.8227 0.0402539 18.181 0.0402539 18.5542C0.0402539 18.9274 0.186573 19.2857 0.4478 19.5522Z"
+                                        fill="#ffa010" />
+                                </svg></button>
+                        </div>
+                        <div class="prods">
+                            <p><span>10</span> Products</p>
+                        </div>
+                        <div class="sort">
+                            <p>Sort</p>
+                            <div>
+                                <select name="" id="">
+                                    <option value="">Relevance</option>
+                                    <option value="">Price</option>
+                                    <option value="">Rating</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="categories">
+                            <p class="hd">categories</p>
+                            <div class="catgs">
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Vehicles</p>
+                                </div>
+
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Property</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Mobile Phones & Tablets</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Electronics</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Furniture & Appliances</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Health & Beauty</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Fashion</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Sports, Arts & Outdoors</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Seeking Work - CVs</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Services</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Babies & Kids</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Animals & Pets</p>
+                                </div>
+                                <div class="catg">
+                                    <input type="checkbox" name="" id="">
+                                    <p>Agriculture & Food</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <div class="product">
+                            <img src="./assets/towel.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Towels</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 200 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/bottle.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Bottle</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 100 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/sand.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Grravel Sand</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 40 trucks</p>
+                            <p class="price"><span>$32.00</span> per truck</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/bag.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Bag of Rice</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 200 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/tiles.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Wall Tiles</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 100 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/tire.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Tires</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 100 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/wristwatch.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Wrist Watch</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 100 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/sandals.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Sandals</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 100 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/rope.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Rope</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 100 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/broom.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Broom and Packer</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 100 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/sew.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Sewing Kit</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 100 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+                        <div class="product">
+                            <img src="./assets/bowl.png" alt="">
+                            <div class="like"><img src="./assets/like.png" alt=""></div>
+                            <h3 class="title">Ceramic Bowl</h3>
+                            <p class="seller">Posted by: Adelani Sunday</p>
+                            <p class="qty"><span>Quantity :</span> 100 pieces</p>
+                            <p class="price"><span>$32.00</span> per piece</p>
+                            <button class="btn btn-orange">Sell</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="pagination">
+                    <button class="left"><img src="./assets/Left Arrow Icon.svg" alt=""></button>
+                    <a href="" class="pg">1</a>
+                    <a href="" class="pg">2</a>
+                    <a href="" class="pg">..</a>
+                    <a href="" class="pg">8</a>
+                    <button class="right"><img src="./assets/Right Arrow Icon.svg" alt=""></button>
+                </div>
+            </div>
+        </section>
+        <section class="cat">
+            <h3>Your Goods Deserves a Wider Reach</h3>
+            <p>Join a List of our Agents</p>
+            <button class="btn btn-orange">Become an Agent</button>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="sub">
+                <p>Enter your email address to get updates</p>
+                <input type="text" placeholder="Enter your email address">
+                <button class="btn btn-orange">Subscribe</button>
+            </div>
+            <div class="enmasse">
+                <h4>enMasse</h4>
+                <ul>
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>Categories</li>
+                    <li>About Us</li>
+                    <li>Make Request</li>
+                    <li>Become an Agent</li>
+                </ul>
+            </div>
+            <div class="terms">
+                <h4>Terms</h4>
+                <ul>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                </ul>
+                <div class="socials">
+                    <img src="./assets/fb.png" alt="">
+                    <img src="./assets/twitter.png" alt="">
+                    <img src="./assets/ig.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="copy">
+            <p>Copyright © 2020 enMasse. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>
